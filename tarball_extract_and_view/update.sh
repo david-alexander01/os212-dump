@@ -1,6 +1,6 @@
 # script to download and extract tarball
 
-USER="david-alexander01"
+USER="$(whoami)"
 LINK="https://os.vlsm.org/Log/$USER.tar.bz2.txt"
 TXTFILE="$USER.tar.bz2.txt"
 FOLDERS="DW*"

@@ -1,10 +1,7 @@
 # os212-dump
-Stuff I find useful
+Stuff I find useful (and spent way too much time making)
 
-- ### update.sh and view.sh
-
-	Place them both in a directory. update.sh downloads, decrypt, and extract your tarball while view.sh lets you view your score at week XX. Use view.sh with arguments 00-11. **Don't forget to change the user in update.sh to your own username**. Example usage:
-
-	bash update.sh
+## Contents:
+- ### tarball_extract_and_view
 	
-	bash view.sh 02
+	Scripts to download, extract, and view your tarball from https://os.vlsm.org/Log/
